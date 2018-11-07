@@ -1,0 +1,50 @@
+
+.a1>header>div{
+    margin-left: 48px; 
+    /* text-decoration:none; */
+    /* float: left; */
+}
+/* .a1>header>div:link{
+    color:blue;
+}
+.a1>header>div:active{
+    color:blue;
+}
+.a1>header>div:hover{
+    color:blue;
+} */
+.iconfont{
+    margin-left: 10px;
+}
+.a1>header{
+    width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 10px;
+    display: flex;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+h2{
+    width: 300px;
+    height:500px;
+    border:2px solid red;
+    margin-left: 20px;
+}
+@font-face {
+    font-family: 'iconfont';  /* project id 804254 */
+    src: url('//at.alicdn.com/t/font_804254_fcuuzrltv2.eot');
+    src: url('//at.alicdn.com/t/font_804254_fcuuzrltv2.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_804254_fcuuzrltv2.woff') format('woff'),
+    url('//at.alicdn.com/t/font_804254_fcuuzrltv2.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_804254_fcuuzrltv2.svg#iconfont') format('svg');
+  }
+  .iconfont {
+    font-family:"iconfont" !important;
+    font-size:16px;
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
